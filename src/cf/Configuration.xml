@@ -170,6 +170,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>ОбщийМодуль1</CommonModule>
+			<Catalog>Справочник1</Catalog>
+			<Catalog>Справочник2</Catalog>
+			<Catalog>Справочник3</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
