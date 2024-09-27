@@ -2,15 +2,21 @@
 
 //tools.cmd("gitsync sync -u ${GITSYNC_STORAGE_USER} -P ${GITSYNC_STORAGE_PWD} -G ${GITSYNC_STORAGE_PATH} ${GITSYNC_WORKDIR} ${GITSYNC_REPO_URL}");
 
+//stage('Конвертация хранилища в git'){
+//    steps {
+//        dev GITSYNC_WORKDIR='C:/gitsync/git_local/src/cf/'
+//        dev GITSYNC_STORAGE_PATH='C:/gitsync/master'
+//        dev GITSYNC_REPO_URL='https://github.com/moav1c/test/tree/main'
+//        dev GITSYNC_STORAGE_USER='deploy'
+//        dev GITSYNC_STORAGE_PWD=''
+//        dev GITSYNC_REMOTE_PUSH=true
+//        dev GITSYNC_REMOTE_PULL=true
+//        gitsync("sync -u ${GITSYNC_STORAGE_USER} -P ${GITSYNC_STORAGE_PWD} -G ${GITSYNC_STORAGE_PATH} ${GITSYNC_WORKDIR} ${GITSYNC_REPO_URL}")
+//    }
+//}
+
 stage('Конвертация хранилища в git'){
-    steps {
-        dev GITSYNC_WORKDIR='C:/gitsync/git_local/src/cf/'
-        dev GITSYNC_STORAGE_PATH='C:/gitsync/master'
-        dev GITSYNC_REPO_URL='https://github.com/moav1c/test/tree/main'
-        dev GITSYNC_STORAGE_USER='deploy'
-        dev GITSYNC_STORAGE_PWD=''
-        dev GITSYNC_REMOTE_PUSH=true
-        dev GITSYNC_REMOTE_PULL=true
-        gitsync("sync -u ${GITSYNC_STORAGE_USER} -P ${GITSYNC_STORAGE_PWD} -G ${GITSYNC_STORAGE_PATH} ${GITSYNC_WORKDIR} ${GITSYNC_REPO_URL}")
-    }
+    
+        gitsync("sync -u 'deploy' -P '' -G 'C:/gitsync/master' 'C:/gitsync/git_local/src/cf/' 'https://github.com/moav1c/test/tree/main'")
+
 }
