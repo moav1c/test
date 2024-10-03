@@ -11,6 +11,10 @@ env.GITSYNC_REMOTE_PUSH=true
 env.GITSYNC_REMOTE_PULL=true
 env.GITSYNC_VERBOSE=true 
 //env.GITSYNC_REMOTE_PUSH_N_COMMITS=2
+env.GITSYNC_IB_CONNECTION= '/Slocalhost/convertation'
+env.$GITSYNC_IB_USR=''
+env.GITSYNC_VERBOSE= true
+env.GITSYNC_V8VERSION='8.3.15.1958'
     
 pipeline {
     agent any
@@ -19,7 +23,7 @@ pipeline {
         stage('Конвертация хранилища в git') {
             steps {
                        
-                cmd("C:/Program^ Files/OneScript/bin/gitsync.bat --v8version 8.3.15.1958 --ibconnection /Slocalhost/convertation -v s")
+                cmd("C:/Program^ Files/OneScript/bin/gitsync.bat s")
             }
         }
     }
