@@ -10,7 +10,7 @@ env.GITSYNC_STORAGE_USER='deploy'
 env.GITSYNC_REMOTE_PUSH=true
 env.GITSYNC_REMOTE_PULL=true
 env.GITSYNC_VERBOSE=true 
-env.GITSYNC_REMOTE_PUSH_N_COMMITS=2
+//env.GITSYNC_REMOTE_PUSH_N_COMMITS=2
     
 pipeline {
     agent any
