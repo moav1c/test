@@ -19,7 +19,7 @@ pipeline {
         stage('Конвертация хранилища в git') {
             steps {
                        
-                cmd("'C:\Program Files\OneScript\bin\gitsync.bat' --v8version 8.3.15.1958 --ibconnection /Slocalhost/convertation -v s")
+                cmd("C:\Program Files\OneScript\bin\gitsync.bat --v8version 8.3.15.1958 --ibconnection /Slocalhost/convertation -v s")
             }
         }
     }
