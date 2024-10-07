@@ -1,6 +1,7 @@
 def cmd(command) {
     if (isUnix()) { sh "${command}" } else { bat "@chcp 65001\n${command}"}
 }
+env.LOGOS_CONFIG='logger.rootLogger=DEBUG'
 env.GITSYNC_WORKDIR='C:/gitsync/git_local/src/cf/'
 env.GITSYNC_TEMP='C:/gitsync/temp'
 env.GITSYNC_STORAGE_PATH='C:/gitsync/master'
@@ -12,7 +13,7 @@ env.GITSYNC_REMOTE_PULL=true
 env.GITSYNC_VERBOSE=true 
 //env.GITSYNC_REMOTE_PUSH_N_COMMITS=2
 env.GITSYNC_IB_CONNECTION= '/Slocalhost/convertation'
-env.$GITSYNC_IB_USR=''
+env.GITSYNC_IB_USR=''
 env.GITSYNC_VERBOSE= true
 env.GITSYNC_V8VERSION='8.3.15.1958'
     
