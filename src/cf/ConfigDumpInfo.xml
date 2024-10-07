@@ -6,8 +6,8 @@
 		</Metadata>
 		<Metadata name="Catalog.Справочник2" id="a76797da-02af-4e20-8b9b-a62109c741a7" configVersion="ccb8f0c634fdf446937288c4aa05ec4300000000"/>
 		<Metadata name="Catalog.Справочник3" id="eccb65e5-5139-4807-9b9e-48250e79b9df" configVersion="fbea88611692e747b91f25d14d2b718e00000000"/>
-		<Metadata name="CommonModule.ОбщийМодуль1" id="0431c57a-6370-4b6e-9d06-c44f0326ba99" configVersion="7d870b01de90ed44b928781a5652138100000000"/>
-		<Metadata name="CommonModule.ОбщийМодуль1.Module" id="0431c57a-6370-4b6e-9d06-c44f0326ba99.0" configVersion="97e92b8f8a1f904bb9f8910bc6d176c000000000"/>
+		<Metadata name="CommonModule.ОбщийМодуль1" id="0431c57a-6370-4b6e-9d06-c44f0326ba99" configVersion="1b14614bbbf0dc4187262852d9cc1d2400000000"/>
+		<Metadata name="CommonModule.ОбщийМодуль1.Module" id="0431c57a-6370-4b6e-9d06-c44f0326ba99.0" configVersion="6dbd75abe179f74293a025ae5a6f8f1800000000"/>
 		<Metadata name="Configuration.Конфигурация" id="74e89443-ada9-4f0b-8ccf-a9b5db31ff7f" configVersion="585e428644309e41ab9c0b766217030900000000"/>
 		<Metadata name="Document.Документ1" id="102e1aa1-8087-40bf-8510-6727ac5f8f5f" configVersion="83ff61b25e7f6141bdc5c1de41f5066e00000000"/>
 		<Metadata name="Enum.Перечисление1" id="37aa9771-bba6-460d-8e4d-d4a07d1e95b8" configVersion="6a89eaa002ca17478a094e2a96743e1600000000"/>
