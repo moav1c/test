@@ -1,7 +1,7 @@
 def cmd(command) {
     if (isUnix()) { sh "${command}" } else { bat "@chcp 65001\n${command}"}
 }
-env.LOGOS_CONFIG="logger.rootLogger=DEBUG"
+env.LOGOS_CONFIG='logger.rootLogger=DEBUG'
 env.GITSYNC_WORKDIR='C:/gitsync/git_local/src/cf/'
 env.GITSYNC_TEMP='C:/gitsync/temp'
 env.GITSYNC_STORAGE_PATH='C:/gitsync/master'
