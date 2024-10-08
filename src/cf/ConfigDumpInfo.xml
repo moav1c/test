@@ -11,7 +11,8 @@
 		</Metadata>
 		<Metadata name="CommonModule.ОбщийМодуль1" id="0431c57a-6370-4b6e-9d06-c44f0326ba99" configVersion="becf95ca1af9c445880eca592394076500000000"/>
 		<Metadata name="CommonModule.ОбщийМодуль1.Module" id="0431c57a-6370-4b6e-9d06-c44f0326ba99.0" configVersion="da2b44331836024c85f66d499986c4b900000000"/>
-		<Metadata name="Configuration.Конфигурация" id="74e89443-ada9-4f0b-8ccf-a9b5db31ff7f" configVersion="a63a1cb596fc994a9c7b7aa47027f85200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="74e89443-ada9-4f0b-8ccf-a9b5db31ff7f" configVersion="caed56e455cea54580b66ce3c9e0b51b00000000"/>
+		<Metadata name="DataProcessor.Обработка1" id="f89ba869-f025-47a2-b381-0b8c834f1086" configVersion="68b568e065d0a14d9c2d8a1e208f8b4b00000000"/>
 		<Metadata name="Document.Документ1" id="102e1aa1-8087-40bf-8510-6727ac5f8f5f" configVersion="83ff61b25e7f6141bdc5c1de41f5066e00000000"/>
 		<Metadata name="Document.Документ2" id="ac9bf1ef-a18d-44a9-9a0d-bc77f7873d0e" configVersion="b60b9f0701b6714c858215be4f6215cd00000000"/>
 		<Metadata name="Enum.Перечисление1" id="37aa9771-bba6-460d-8e4d-d4a07d1e95b8" configVersion="6a89eaa002ca17478a094e2a96743e1600000000"/>
