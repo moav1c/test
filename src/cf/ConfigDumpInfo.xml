@@ -9,8 +9,8 @@
 		<Metadata name="Catalog.Справочник3" id="eccb65e5-5139-4807-9b9e-48250e79b9df" configVersion="3faeefab79068249b6ee3ee89d82214a00000000">
 			<Metadata name="Catalog.Справочник3.Attribute.Реквизит1" id="3db5ca9c-e994-4276-adc2-40635e7c8e1f"/>
 		</Metadata>
-		<Metadata name="CommonModule.ОбщийМодуль1" id="0431c57a-6370-4b6e-9d06-c44f0326ba99" configVersion="32ed7d4d58f01540b18cf04a30b4967100000000"/>
-		<Metadata name="CommonModule.ОбщийМодуль1.Module" id="0431c57a-6370-4b6e-9d06-c44f0326ba99.0" configVersion="1e8e96a4b556014da92d36876410f78f00000000"/>
+		<Metadata name="CommonModule.ОбщийМодуль1" id="0431c57a-6370-4b6e-9d06-c44f0326ba99" configVersion="becf95ca1af9c445880eca592394076500000000"/>
+		<Metadata name="CommonModule.ОбщийМодуль1.Module" id="0431c57a-6370-4b6e-9d06-c44f0326ba99.0" configVersion="da2b44331836024c85f66d499986c4b900000000"/>
 		<Metadata name="Configuration.Конфигурация" id="74e89443-ada9-4f0b-8ccf-a9b5db31ff7f" configVersion="a63a1cb596fc994a9c7b7aa47027f85200000000"/>
 		<Metadata name="Document.Документ1" id="102e1aa1-8087-40bf-8510-6727ac5f8f5f" configVersion="83ff61b25e7f6141bdc5c1de41f5066e00000000"/>
 		<Metadata name="Document.Документ2" id="ac9bf1ef-a18d-44a9-9a0d-bc77f7873d0e" configVersion="b60b9f0701b6714c858215be4f6215cd00000000"/>
