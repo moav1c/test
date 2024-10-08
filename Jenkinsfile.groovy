@@ -25,7 +25,7 @@ pipeline {
             steps {              
                 //cmd("C:/Program^ Files/OneScript/bin/gitsync.bat s")
                 cmd("gitsync plugins init")
-                cmd("gitsync s -P")
+                cmd("gitsync s [--push]")
             }
         }
     }
