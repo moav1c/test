@@ -24,8 +24,8 @@ pipeline {
         stage('Конвертация хранилища в git') {
             steps {              
                 //cmd("C:/Program^ Files/OneScript/bin/gitsync.bat s")
-                cmd(gitsync plugins init)
-                cmd(gitsync s)
+                cmd("gitsync plugins init")
+                cmd("gitsync s")
             }
         }
     }
