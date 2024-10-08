@@ -1,0 +1,2 @@
+﻿Modified:CommonModule.ОбщийМодуль1
+Modified:CommonModule.ОбщийМодуль1.Module

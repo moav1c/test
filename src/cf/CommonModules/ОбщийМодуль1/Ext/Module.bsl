@@ -12,6 +12,7 @@
 	
 	//sdfsdf
 	//  567 ewrfewf
+	//rwefew
 	
 КонецПроцедуры
 
