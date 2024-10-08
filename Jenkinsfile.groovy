@@ -5,7 +5,7 @@ env.LOGOS_CONFIG='logger.rootLogger=DEBUG'
 env.GITSYNC_WORKDIR='C:/gitsync/git_local/src/cf/'
 env.GITSYNC_TEMP='C:/gitsync/temp'
 env.GITSYNC_STORAGE_PATH='C:/gitsync/master'
-env.GITSYNC_REPO_URL='https://github.com/moav1c/test/tree/main.git'
+env.GITSYNC_REPO_URL='https://github.com/moav1c/test/main'
 env.GITSYNC_STORAGE_USER='deploy'
 //env.GITSYNC_STORAGE_PWD=
 env.GITSYNC_REMOTE_PUSH='true'
