@@ -26,6 +26,7 @@ pipeline {
                 //cmd("C:/Program^ Files/OneScript/bin/gitsync.bat s")
                 cmd("gitsync plugins init")
                 cmd("gitsync plugins enable sync-remote")
+                cmd("gitsync plugins enable increment")
                 cmd("gitsync plugins list")
                 cmd("gitsync sync")
             }
