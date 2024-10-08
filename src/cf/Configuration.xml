@@ -175,6 +175,7 @@
 			<Catalog>Справочник2</Catalog>
 			<Catalog>Справочник3</Catalog>
 			<Document>Документ1</Document>
+			<Document>Документ2</Document>
 			<Enum>Перечисление1</Enum>
 		</ChildObjects>
 	</Configuration>
