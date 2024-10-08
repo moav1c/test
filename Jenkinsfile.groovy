@@ -22,9 +22,10 @@ pipeline {
 
     stages {
         stage('Конвертация хранилища в git') {
-            steps {
-                       
-                cmd("C:/Program^ Files/OneScript/bin/gitsync.bat s")
+            steps {              
+                //cmd("C:/Program^ Files/OneScript/bin/gitsync.bat s")
+                cmd(gitsync p i)
+                cmd(gitsync s)
             }
         }
     }
