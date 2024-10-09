@@ -28,7 +28,7 @@ pipeline {
                 cmd("gitsync plugins enable sync-remote")
                 cmd("gitsync plugins enable increment")
                 cmd("gitsync plugins list")
-                cmd("gitsync sync --increment")
+                cmd("gitsync sync")
             }
         }
     }
