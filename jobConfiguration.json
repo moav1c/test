@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/firstBitSemenovskaya/jenkins-lib/develop/resources/schema.json",
+    "v8version": "8.3.23.1997",
+    "defaultBranch": "master",
+    "stages": {
+        "initSteps": true,
+        "bdd": true,
+        "sonarqube": true,
+        "edtValidate": false,
+        "syntaxCheck": true,
+        "smoke": true,
+        "telegram": true
+    },
+    "initInfobase": {
+        "initMethod": "defaultBranchFromStorage"
+    },
+    "resultsTransform": {
+        "supportLevel": 1
+    }
+}
